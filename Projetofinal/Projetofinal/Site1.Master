@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Projetofinal.Site1" %>
+
+
+ <!DOCTYPE html>  
+  
+<html xmlns="http://www.w3.org/1999/xhtml">  
+<head runat="server">  
+    <title>Made in Files</title>  
+    <link href="css/global.css" rel="stylesheet" /> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />  
+    <asp:ContentPlaceHolder ID="head" runat="server">  
+  
+        </asp:ContentPlaceHolder>  
+</head>  
+<body>  
+    <!DOCTYPE html>  
+    <form id="form1" runat="server">  
+      
+<html>  
+<head>  
+    <title>my layout</title>  
+    <link rel="stylesheet" type="text/css" href="my.css">  
+</head>  
+<body>  
+ 
+<nav id="nav">  
+    <ul>  
+        <asp:Image ID="Image2" runat="server" Height="80px" Width="80px" ImageUrl="~/img/2557715.png" />
+              <br /> Made in Files
+        <li><a href="/home.aspx">Ínicio</a></li>  
+        <li><a href="/manager.aspx">Gerenciar</a></li>  
+        <li><a href="/send.aspx">Enviar</a></li>  
+        <li><a href="/contacts.aspx">Contatos</a></li>  
+        <li><a href="/about.aspx">Sobre</a></li>  
+        <li><a href="/profile.aspx">Perfil</a></li>  
+    </ul>  
+</nav>  
+    
+<aside id="side">  
+    <h1>news</h1>  
+    <a href="#"><p>creating html website</p></a>  
+    <a href="#"><p>learn css</p></a>  
+    <a href="#">learn c#</a>  
+</aside>  
+  
+  
+    <div id="con">  
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">  
+       
+           
+        </asp:ContentPlaceHolder>  
+    </div>  
+  
+  
+<footer id="footer">  
+   <div>
+    <a>
+  
+
+    </a>
+
+   </div>
+</footer>  
+</body>  
+</html>  
+      
+    </form>  
+</body>  
+</html>
