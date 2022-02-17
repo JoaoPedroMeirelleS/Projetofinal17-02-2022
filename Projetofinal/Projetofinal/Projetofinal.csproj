@@ -69,9 +69,14 @@
   <ItemGroup>
     <Content Include="about.aspx" />
     <Content Include="contacts.aspx" />
+    <Content Include="css\all.min.css" />
+    <Content Include="css\fontawesome.min.css" />
     <Content Include="css\global.css" />
     <Content Include="home.aspx" />
     <Content Include="img\2557715.png" />
+    <Content Include="js\all.min.js" />
+    <Content Include="js\fontawesome.min.js" />
+    <Content Include="js\Site1.js" />
     <Content Include="manager.aspx" />
     <Content Include="profile.aspx" />
     <Content Include="send.aspx" />
