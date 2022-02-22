@@ -74,6 +74,9 @@
     <Content Include="css\global.css" />
     <Content Include="home.aspx" />
     <Content Include="img\2557715.png" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\logo123.png" />
+    <Content Include="img\logocolorido.png" />
     <Content Include="js\all.min.js" />
     <Content Include="js\fontawesome.min.js" />
     <Content Include="js\Site1.js" />

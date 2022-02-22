@@ -16,6 +16,9 @@
             height: 80px;
             width: 80px;
         }
+        .header11 {
+            width: 1023px;
+        }
     </style>
 </head>  
 <body>  
@@ -26,13 +29,10 @@
  
 <body>  
 
-    <header>
-  <div class="header11">
-                <a href="/home.aspx" title="Página incial"><img id="logoin" src="img/2557715.png" alt="My.Docs.App Logo"></a>
-                <h1 id="siteName">Made in Files</h1>
-               
-            </div>
-    </header>
+   <header class="cabeca">
+  <div class="header11"> 
+                <a href="/home.aspx" title="Página incial"><img id="logoin" src="img/logocolorido.png" alt="My.Docs.App Logo"></a>
+       &nbsp;</div> </header>
  
 <nav id="nav">  
          <div id="mainMenu" class="nav menu-closed">
@@ -109,7 +109,6 @@
 </html>  
       
     </form>  
-    <script src="js/all.min.js"></script>
-     <script src="js/fontawesome.min.js"></script>
+   
 </body>  
 </html>
